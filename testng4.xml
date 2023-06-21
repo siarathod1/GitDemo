@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URL" value="qaclickacademy.com"/>
+  <test name="Personal Loan">
+	  	<parameter name="URL" value="clickacademy.com"/>
+
+   <classes>
+	   <class name="sia.Day1"/>
+	   <class name="sia.Day2"/>
+	   <class name="sia.Day3"/>
+	   <class name="sia.Day4"/>
+   </classes>
+	  
+  </test>
+</suite> 
