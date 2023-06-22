@@ -9,6 +9,9 @@ public class Day3 {
  public void webLoginCarLoan()
  {
 	 System.out.println("webLoginCarLoan");
+	 System.out.println("CarLoan");
+
+	 
  }
  
  @Test(groups= {"Smoke"})

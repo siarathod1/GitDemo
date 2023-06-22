@@ -28,6 +28,12 @@ public class Day1 {
 		Assert.assertEquals(inputName, outputName);
 		System.out.println(resp.prettyPrint());
 		System.out.println("Hello");
+		System.out.println("He");
+
+		System.out.println("lo");
+
+		System.out.println("ello");
+
 
 	}
 
