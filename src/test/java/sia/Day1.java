@@ -14,8 +14,8 @@ public class Day1 {
 		Response resp = RestAssured.given()
 //				.post("https://httpbin.org/post");
 				.header("Authorization", "Basic YWJjOmFiYw==")
-//				.formParam("Name", inputName)
-				.body("SUnil is OSUM")
+				.formParam("Name", inputName)
+//				.body("SUnil is OSUM")
 				.post("https://httpbin.org/post");
 		
 		
@@ -27,6 +27,7 @@ public class Day1 {
 		String outputName = resp.jsonPath().get("form.Name");
 		Assert.assertEquals(inputName, outputName);
 		System.out.println(resp.prettyPrint());
+		System.out.println("Hello");
 
 	}
 

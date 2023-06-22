@@ -32,7 +32,7 @@ public class Day3 {
 	 System.out.println(url);
 
  }
- @Test(dependsOnMethods= {"mobileSigninCarLoan"})
+ @Test
  public void apiLoginCarLoan()
  {
 	 System.out.println("apiLoginCarLoan");
